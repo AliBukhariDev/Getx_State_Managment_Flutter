@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 //This class includes some of the getx utilities such as bottom bar and how
 // we can easily change the theme with getx, and also Snack Bar with getx
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class GetxUtilities extends StatefulWidget {
+  const GetxUtilities({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<GetxUtilities> createState() => _GetxUtilitiesState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _GetxUtilitiesState extends State<GetxUtilities> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -106,6 +105,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                 )),
           ),
+          ElevatedButton(
+              onPressed: () {
+                Get.toNamed('/getx_navigation', arguments: ['Ali', 'Bukhari']);
+                // Get.to(const GetxNavigation());
+                //Navigator.push(context,MaterialPageRoute(builder: (context) => const GetxNavigation()));
+              },
+              child: const Text('New Screen'))
         ],
       ),
       floatingActionButton: FloatingActionButton(
