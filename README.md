@@ -1,6 +1,6 @@
 # getx_tutorials_material
 
-A new Flutter project.
+This project includes all important materials about getx state management and getx utilities.
 
 ## Getting Started
 
