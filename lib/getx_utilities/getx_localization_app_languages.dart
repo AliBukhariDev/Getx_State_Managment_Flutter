@@ -26,15 +26,15 @@ class _AppLanguagesState extends State<AppLanguages> {
             children: [
               OutlinedButton(
                   onPressed: () {
-                    Get.updateLocale(Locale('en', 'US'));
+                    Get.updateLocale(const Locale('en', 'US'));
                   },
-                  child: Text('English')),
+                  child: const Text('English')),
               SizedBox(width: Get.height * .02),
               OutlinedButton(
                   onPressed: () {
-                    Get.updateLocale(Locale('ur', 'PK'));
+                    Get.updateLocale(const Locale('ur', 'PK'));
                   },
-                  child: Text('Urdu')),
+                  child: const Text('Urdu')),
             ],
           )
         ],

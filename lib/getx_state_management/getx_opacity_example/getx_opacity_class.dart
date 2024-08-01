@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:getx_tutorials_material/getx_state_management/getx_opacity_example/getx_opacity_controller.dart';
 

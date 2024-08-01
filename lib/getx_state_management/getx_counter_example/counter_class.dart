@@ -33,7 +33,7 @@ class _CounterClassState extends State<CounterClass> {
         },
         child: const Text(
           '+',
-          style: const TextStyle(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
       ),
     );
