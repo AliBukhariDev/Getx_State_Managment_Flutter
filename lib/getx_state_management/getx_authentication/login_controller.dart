@@ -9,6 +9,9 @@ class LoginController extends GetxController {
   final passwordController = TextEditingController().obs;
   RxBool loading = true.obs;
 
+  //email  eve.holt@reqres.in
+  //password cityslicka
+
   void loginApi() async {
     loading.value = false;
     try {
