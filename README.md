@@ -1,4 +1,4 @@
-# getx_tutorials_material
+# Getx State Management Examples
 
 This project includes all important materials about getx state management and getx utilities.
 
